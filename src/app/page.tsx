@@ -5,7 +5,11 @@ const PLAYBACK_ID = "4XN6dqxPTZJPU021TuSGIHPaOuKQkrxHF";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col gap-8 items-center justify-center h-screen container mx-auto">
+      <h1 className="text-4xl font-bold text-center">
+        Mux Video player.style test
+      </h1>
+
       <MuxTheme
         style={{
           width: "100%",
