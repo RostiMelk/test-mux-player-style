@@ -22,7 +22,6 @@ export default function Home() {
           playbackId={PLAYBACK_ID}
           streamType="on-demand"
           playsInline
-          crossOrigin
           disablePictureInPicture={true}
           disableCookies={true}
           disableTracking={true}
