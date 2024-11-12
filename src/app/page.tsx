@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-8 items-center justify-center h-screen container mx-auto">
       <h1 className="text-4xl font-bold text-center">
-        Mux Video player.style test
+        Mux Video player.style test (Next.js)
       </h1>
 
       <MuxTheme
